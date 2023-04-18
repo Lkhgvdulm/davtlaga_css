@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.header {
+				max-width: 100%;
+				margin: auto;
+				height: 200px;
+			}
+			.h-container {
+				width: 100%;
+				height: 200px;
+				display: flex;
+				gap: 10px;
+			}
+			.left {
+				width: 50%;
+				height: 200px;
+			}
+			.left_img {
+				width: 100%;
+				height: 200px;
+				position: relative;
+			}
+			.left_img_p {
+				position: absolute;
+                margin-left: 20px;
+                margin-top: -180px;
+			}
+            .left_img_p p {
+                font-size: 14px;
+                color: white;
+            }
+			.left_img img {
+				width: 100%;
+				height: 200px;
+				object-fit: contain;
+			}
+			.right {
+				width: 50%;
+				height: 200px;
+				background-color: aqua;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="h-container">
+				<div class="left">
+					<div class="left_img">
+						<img src="./images/header.png" />
+					</div>
+					<div class="left_img_p">
+						<p>test</p>
+					</div>
+				</div>
+				<div class="right"></div>
+			</div>
+		</div>
+	</body>
+</html>

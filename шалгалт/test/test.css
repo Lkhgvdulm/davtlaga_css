@@ -1,0 +1,10 @@
+.container {
+	width: 70%;
+	height: 900px;
+}
+.dundcontainer {
+	width: 70%;
+	margin-top: 10px;
+	height: 900px;
+	background-color: black;
+}

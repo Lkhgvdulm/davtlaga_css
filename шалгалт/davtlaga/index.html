@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<style>
+		.container {
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+			grid-gap: 30px;
+			width: 1000px;
+			height: 700px;
+		}
+		.box-1 {
+			display: grid;
+			grid-template-rows: 1fr 4fr 2fr;
+			grid-gap: 10px;
+		}
+		.niit-box:nth-child(2) {
+			display: grid;
+			grid-template-columns: 1fr 5fr;
+			grid-gap: 20px;
+		}
+		.niit-box:nth-child(1) {
+			background-color: black;
+		}
+		.neg-box:nth-child(1) {
+			background-color: #000;
+		}
+		.neg-box:nth-child(2) {
+			display: grid;
+			grid-template-rows: 1fr 5fr;
+			grid-gap: 10px;
+		}
+		.gol-heseg:nth-child(1) {
+			background-color: #000;
+		}
+		.gol-heseg:nth-child(2) {
+			display: grid;
+			grid-template-columns: 3fr 2fr;
+			grid-gap: 10px;
+		}
+		.dund {
+			background-color: #000;
+		}
+		.niit-box:nth-child(3) {
+			display: grid;
+			grid-template-rows: 1fr 1fr;
+			grid-gap: 10px;
+		}
+		.guraw:nth-child(1) {
+			display: grid;
+			grid-template-columns: 2fr 1fr 2fr;
+			grid-gap: 10px;
+		}
+		.guraw-neg:nth-child(1),
+		.guraw-neg:nth-child(3) {
+			background-color: #000;
+		}
+		.guraw:nth-child(2) {
+			background-color: #000;
+		}
+		.hoyor {
+			display: grid;
+			grid-template-rows: 2fr 3fr;
+			grid-gap: 10px;
+		}
+		.hoyor-neg:nth-child(1) {
+			background-color: #000;
+		}
+		.hoyor-neg:nth-child(2) {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 10px;
+		}
+		.hoyor-hoyor:nth-child(1) {
+			background-color: #000;
+		}
+		.hoyor-hoyor {
+			display: grid;
+			grid-template-rows: 2fr 2fr;
+			grid-gap: 10px;
+		}
+		.hoyor-guraw:nth-child(1) {
+			background-color: #000;
+		}
+		.hoyor-guraw:nth-child(2) {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 10px;
+		}
+		.hoyor-duruw {
+			background-color: #000;
+		}
+
+	</style>
+	<body>
+		<div class="container">
+			<div class="box-1">
+				<div class="niit-box"></div>
+				<div class="niit-box">
+					<div class="neg-box"></div>
+					<div class="neg-box">
+						<div class="gol-heseg"></div>
+						<div class="gol-heseg">
+							<div class="dund"></div>
+							<div class="dund"></div>
+						</div>
+					</div>
+				</div>
+				<div class="niit-box">
+					<div class="guraw">
+						<div class="guraw-neg"></div>
+						<div class="guraw-neg"></div>
+						<div class="guraw-neg"></div>
+					</div>
+					<div class="guraw"></div>
+				</div>
+			</div>
+			<div class="hoyor">
+				<div class="hoyor-neg"></div>
+				<div class="hoyor-neg">
+					<div class="hoyor-hoyor"></div>
+					<div class="hoyor-hoyor">
+						<div class="hoyor-guraw"></div>
+						<div class="hoyor-guraw">
+							<div class="hoyor-duruw"></div>
+							<div class="hoyor-duruw"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
